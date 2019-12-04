@@ -118,7 +118,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [MDN Web Docs](https://developer.mozilla.org)
-*
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
