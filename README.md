@@ -26,7 +26,7 @@
 (Work in progress)
 Metronote. is a lightweight metronome built using the popular ReactJS framework, The focus of this project was to create a clean and simple to use metronome with as little as possible features in order to create a clean and simple experience, I wanted to eliminate any distracting elements and let the musician focus on the beats themselves using a minimal UI and a prominent beat counter.
 
-From a programming standpoint, I have built metronote to practice using timed events and testing which way would produce the most accurate way combined with timed animations, Also it was nice to practice UI design and the WebAudio API a bit, Although i haven't used it's full capabilities.
+From a programming standpoint, I have built metronote to practice using timed events and testing which way would produce the most accurate way combined with timed animations, Exploring the limitations setTimeout versus triggered infinite while loops Also it was nice to practice UI design and the WebAudio API a bit, Although i haven't used it's full capabilities.
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
