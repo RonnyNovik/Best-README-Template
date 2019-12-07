@@ -20,17 +20,26 @@
 
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://i.imgur.com/mbrSL6d.png" alt="Metronote">
+    <img src="https://i.imgur.com/FbcVPiK.png" alt="ReactMusicPlayer">
   </a>
 </p>
-(Work in progress)
-Metronote. is a lightweight metronome built using the popular ReactJS framework, The focus of this project was to create a clean and simple to use metronome with as little as possible features in order to create a clean and simple experience, I wanted to eliminate any distracting elements and let the musician focus on the beats themselves using a minimal UI and a prominent beat counter.
 
-From a programming standpoint, I have built metronote to practice using timed events and testing which way would produce the most accurate way combined with timed animations, Exploring the limitations setTimeout versus triggered infinite while loops Also it was nice to practice UI design and the WebAudio API a bit, Although i haven't used it's full capabilities.
+React Music Player is a simple, responsive music player with a nice and clean UI that features my favorite soundtracks from video games(BFG FTW).
+React Music Player is not a full blown player (Not yet) but it holds the basic functionality for every player out there: Play/Pause, Draggable progression bar, Time tracking, Shuffle, Repeat, Mute and a Playlist.
+
+The idea of creating this player was inspired by a design that i have stumbled upon and i wanted to recreate it using react, I saw it as a wonderful opportunity to expand my knowledge about WebAudio API, UI animations, Transferring data using Firebase as a database, Sending requests using Axios and recreating designs into functional programs.
+
+The app is built around a modified version of ReactH5AudioPlayer which does most of the heavy lifting when it comes to playing and tracking the time, I thought about creating the player from scratch but eventually i wanted to be efficient and reuse any ready component i can use.
+The song files and the data is transferred through the Firebase API using Axios for the requests, It is not the ideal way to transfer such files but the focus of the project was Front-End, A server will be added later.
+
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [ReactJS](https://reactjs.org/)
+* [ReactTransitionGroup](https://github.com/reactjs/react-transition-group)
+* [ReactH5AudioPlayer](https://www.npmjs.com/package/react-h5-audio-player)
+* [Firebase](https://firebase.google.com/)
+* [Axios](https://github.com/axios/axios)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -42,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 
 In order to run metronote locally, you must clone the repository to your machine, you can do this by running the following command in your CLI
 ```sh
-$ git clone https://github.com/RonnyNovik/Metronote.git
+$ git clone https://github.com/RonnyNovik/React-Music-Player.git
 ```
 
 ### Installation and running the project locally
@@ -88,9 +97,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Using metronome is very intuitive, you pick your desired BPM and press on play, simple as that.
-You can also change your BPM and this will cause the beat counter to reset.
-
+Using the player is just like any other player you are accustomed to, all the controls are designed to be intuitive and user friendly.
+<p align="center">
+  <a href="">
+    <img src="https://i.imgur.com/FbcVPiK.png" alt="ReactMusicPlayer">
+  </a>
+</p>
+Here is the list of currently available songs, Click on one of them to play!
+<p align="center">
+  <a href="">
+    <img src="https://i.imgur.com/zgM3mO9.png" alt="ReactMusicPlayer">
+  </a>
+</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
